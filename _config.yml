@@ -1,2 +1,4 @@
 name: Daniel Wood
 markdown: kramdown
+
+theme: jekyll-theme-slate
