@@ -1,3 +1,4 @@
 theme: jekyll-theme-midnight
 title: Daniel Wood
+description: Welcome to my personal Github page.
 permalink: /blog/:year/:month/:day/:title
