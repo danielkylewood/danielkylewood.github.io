@@ -2,8 +2,6 @@
 layout: default
 ---
 
-![](assets/daniel.png =225x225)
-
 <img align="right" src="assets/daniel.png" width="225" height="225" style="padding:5px;"/>
 
 ## Hi there, I'm Daniel Wood!
