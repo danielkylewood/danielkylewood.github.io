@@ -19,6 +19,13 @@
   }
 }
 
+
+.custom-avatar-image {
+  border-radius: 50%;
+  float: right;
+  height: inherit;
+}
+
 .page {
   @include breakpoint($large) {
     float: right;
