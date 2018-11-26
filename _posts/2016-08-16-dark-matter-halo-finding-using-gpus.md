@@ -1,5 +1,7 @@
 ---
 classes: wide
+title: Dark Matter Halo-Finding Using GPUs
+permalink: /blog/:title
 ---
 
 ## Introduction
