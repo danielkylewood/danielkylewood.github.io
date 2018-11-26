@@ -2,6 +2,7 @@
 classes: wide
 title: Dark Matter Halo-Finding Using GPUs
 permalink: /blog/:title
+excerpt: "Expediting the computation of cosmological simulations to investigate large scale structure finding and galaxy evolution, on graphics processing units."
 ---
 
 ## Introduction
