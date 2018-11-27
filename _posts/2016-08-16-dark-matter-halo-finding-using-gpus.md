@@ -559,7 +559,7 @@ Finally, we implemented a very simple halo-finder. The friends-of-friends algori
 
 Remember those velocity parameters that I glossed over back when we were discussing the data? Halos are bound together gravitationally, and as such, incorporating particle velocity into our linking parameters might indeed skew the resulting linking constraint to overcome bridging. It would also make this a 6 dimensional problem. But then again, we could probably reduce those dimensions back to 3 by deriving a new "distance" equation.
 
-Spoiler alert: We definitely can. If you're still interested, you are welcome to read the [thesis](pubs.cs.uct.ac.za/archive/00000937/01/danielwoodUpdatedThesis.pdf) I wrote on the subject. Don't take the resultant testing to heart, it was written many years ago, and the code in this write-up has been much improved.
+Spoiler alert: We definitely can. If you're still interested, you can find my M.S thesis [here](pubs.cs.uct.ac.za/archive/00000937/01/danielwoodUpdatedThesis.pdf), which investigates this more thoroughly. Parts of it may be different to this, though, as it's quite old.
 
 The full code can be picked up from my [GitHub repository](https://github.com/danielkylewood/gpu-halo-finder). It also includes a small data file of 116761 particles. In the real world, this really is nothing. But it could at least get you started.
 
