@@ -18,7 +18,7 @@
 
 {% if page.header.author_avatar contains "://" %}
   {% capture author_avatar_path %}{{ page.header.author_avatar }}{% endcapture %}
-{% elsif page.header.overlay_avatar %}
+{% elsif page.header.author_avatar %}
   {% capture author_avatar_path %}{{ page.header.author_avatar | relative_url }}{% endcapture %}
 {% endif %}
 
@@ -41,7 +41,7 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <img src="/assets/images/daniel.png" class="custom-avatar-image" onload="this.width/=2;this.onload=null">
+      {% if author_avatar_path %}<img src="{{ author_avatar_path }}" class="custom-avatar-image">{% endif %}
       <h1 id="page-title" class="page__title" itemprop="headline">
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
